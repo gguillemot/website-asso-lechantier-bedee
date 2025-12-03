@@ -1,0 +1,12 @@
+title: Association Le Chantier - Bédée
+email: contact@asso-lechantier-bedee.fr
+description: >- # this means to ignore newlines until "baseurl:"
+  L'association Le Chantier à Bédée : c'est Pré en Bulles, le festival de la bande dessinée à Bédée. Mais pas que... 
+  C'est KBaBD une AMAP qui favorise les circuits courts et si possible le bio ou le "raisonné"... 
+  C'est Festi’bulle, une guinguette éphémère
+baseurl: ""
+url: "https://asso-lechantier-bedee.fr"
+domain: "asso-lechantier-bedee.fr"
+
+# Build settings
+theme: minima
