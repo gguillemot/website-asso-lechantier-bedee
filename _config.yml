@@ -20,3 +20,6 @@ footer: Association Le Chantier
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:  
+  - jekyll-redirect-from 
