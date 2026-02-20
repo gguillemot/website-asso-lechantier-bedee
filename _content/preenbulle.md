@@ -13,7 +13,8 @@ Les histoires que nous recevons – celles de nos ancêtres, de nos lieux d'orig
 - Rencontres avec les auteurs : Dédicaces et échanges avec vos créateurs préférés
 - Expositions : Découverte d'œuvres originales et planches de BD
 - Ateliers : Initiation au dessin et à la création de BD pour petits et grands
-- Animations : Spectacles, jeux et activités autour de l'univers de la bande dessinée
+- Spectacles et concerts : Représentations théâtrales, performances artistiques et concerts tout au long de la journée
+- Animations : Jeux et activités pour petits et grands autour de l'univers de la bande dessinée
 
 ## Participer au festival
 
