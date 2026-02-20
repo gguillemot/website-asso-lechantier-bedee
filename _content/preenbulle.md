@@ -1,6 +1,6 @@
 # Pré en Bulles
 
-Pré en Bulles est le festival de la bande dessinée de Bédée, un événement annuel qui célèbre le 9ème art. Depuis sa création, ce festival gratuit et accessible à tous rassemble auteurs, dessinateurs et passionnés de BD pour un dimanche festif et culturel.
+Pré en Bulles est le festival de la bande dessinée de Bédée, un événement annuel qui célèbre le 9ème art. Depuis sa création, ce festival accessible à tous rassemble auteurs, dessinateurs et passionnés de BD pour un dimanche festif et culturel.
 
 ## Édition 2026 : "Transmission des possibles"
 
@@ -17,6 +17,6 @@ Les histoires que nous recevons – celles de nos ancêtres, de nos lieux d'orig
 
 ## Participer au festival
 
-- En tant que visiteur : Entrée gratuite pour profiter d'une journée conviviale
+- En tant que visiteur : Venez profiter d'une journée conviviale
 - En tant que bénévole : Rejoignez l'équipe pour l'organisation, le montage ou le jour J
 - En tant qu'exposant : Contactez-nous pour participer
