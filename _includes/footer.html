@@ -1,6 +1,10 @@
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; {{ site.footer }} 20{{ site.time | date: '%y' }}</p>
-        </div>
-    </footer>
+<footer id="footer">
+    <!--Footer Button-->
+    <div class="container has-text-centered has-background-grey-darker" id="backtotop">
+        <a class="has-text-white" onclick="window.scroll(0,0)">RETOUR EN HAUT</a>
+    </div>
+    <!--Footer Credits-->
+    <div class="has-background-black has-text-centered has-text-white" id="credits">
+        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | Association Le Chantier - Bédée
+    </div>
+</footer>

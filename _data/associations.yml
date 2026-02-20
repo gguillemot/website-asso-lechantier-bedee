@@ -1,0 +1,26 @@
+- name: Pré en Bulles
+  slug: preenbulle
+  tagline: Le festival de la bande dessinée à Bédée
+  image: /assets/images/preenbulle.jpg
+  description_file: _content/preenbulle.md
+  icon: "📚"
+  color: "#3273dc"
+  website: "https://www.preenbulles.fr/"
+
+- name: KBaBD
+  slug: kbabd
+  tagline: AMAP - Circuits courts et bio
+  image: /assets/images/kbabd.jpg
+  description_file: _content/kbabd.md
+  icon: "🥕"
+  color: "#48c774"
+  website: "https://s8.amapj.fr/p/bedee"
+
+- name: Festi'Bulle
+  slug: festibulle
+  tagline: Une guinguette éphémère
+  image: /assets/images/festibulle.jpg
+  description_file: _content/festibulle.md
+  icon: "🎪"
+  color: "#ffdd57"
+  facebook: "https://www.facebook.com/people/FestiBulle/61557356077157/"

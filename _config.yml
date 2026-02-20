@@ -1,25 +1,47 @@
-# Site settings
-title: Association Le Chantier
-email: contact@asso-lechantier-bedee.fr
-description: >- # this means to ignore newlines until "baseurl:"
-  L'association Le Chantier à Bédée : c'est Pré en Bulles, le festival de la bande dessinée à Bédée. Mais pas que... 
-  C'est KBaBD une AMAP qui favorise les circuits courts et si possible le bio ou le "raisonné"... 
-  C'est Festi’bulle, une guinguette éphémère
-baseurl: ""
+markdown: kramdown
+
 url: "https://www.asso-lechantier-bedee.fr"
-domain: "www.asso-lechantier-bedee.fr"
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: ""
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
+title: Le Chantier
+description: "Association à Bédée - Culture, lien social et développement durable : Pré en Bulles, KBaBD, Festi'Bulle"
 
-# Footer settings
-footer: Association Le Chantier
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+site-keywords: Le Chantier, Bédée, Association, Pré en Bulles, Festival BD, Bande Dessinée, KBaBD, AMAP, Circuits Courts, Festi'Bulle, Guinguette
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/coccinelle.jpg
+
+email: contact@asso-lechantier-bedee.fr
+facebook_username: 
+twitter_username: 
+instagram_username: 
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
-markdown: kramdown
-permalink: pretty
-
-plugins:  
+plugins:
   - jekyll-redirect-from 
+
+# Compress
+compress_html:
+  clippings: all
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

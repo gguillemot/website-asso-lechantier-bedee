@@ -1,0 +1,78 @@
+<section class="hero is-fullheight has-text-centered" id="associations">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title is-size-1 has-text-black">Nos Actions</h1>
+            <hr>
+            <div class="columns is-centered" style="align-items: stretch;">
+                {% for association in site.data.associations %}
+                <div class="column is-one-third" style="display: flex;">
+                    <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+                        <header class="card-header" style="background-color: {{ association.color }};">
+                            <p class="card-header-title is-centered has-text-white is-size-4">
+                                <span class="icon is-large mr-2">
+                                    <span style="font-size: 2rem;">{{ association.icon }}</span>
+                                </span>
+                                {{ association.name }}
+                            </p>
+                        </header>
+                        <div class="card-content" style="flex-grow: 1;">
+                            <div class="content">
+                                <p class="subtitle is-size-5 has-text-grey-dark">{{ association.tagline }}</p>
+                                {% capture asso_content %}{% include_relative {{ association.description_file }} %}{% endcapture %}
+                                {{ asso_content | markdownify | truncatewords: 50 }}
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="#{{ association.slug }}-detail" class="card-footer-item has-text-weight-bold">
+                                En savoir plus
+                            </a>
+                        </footer>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sections détaillées pour chaque association -->
+{% for association in site.data.associations %}
+<section class="hero is-fullheight has-background-white-ter" id="{{ association.slug }}-detail">
+    <div class="hero-body">
+        <div class="container">
+            <div class="content has-text-left">
+                <div class="box">
+                    <h1 class="title is-size-2" style="color: {{ association.color }};">
+                        <span class="icon is-large mr-2">
+                            <span style="font-size: 2rem;">{{ association.icon }}</span>
+                        </span>
+                        {{ association.name }}
+                    </h1>
+                    {% capture asso_content %}{% include_relative {{ association.description_file }} %}{% endcapture %}
+                    {{ asso_content | markdownify }}
+                    
+                    <!-- Liens web et réseaux sociaux -->
+                    <div class="buttons is-centered mt-5">
+                        {% if association.website %}
+                        <a href="{{ association.website }}" target="_blank" class="button is-medium is-rounded" style="background-color: {{ association.color }}; color: white;">
+                            <span class="icon">
+                                <i class="fas fa-globe"></i>
+                            </span>
+                            <span>Visiter le site web</span>
+                        </a>
+                        {% endif %}
+                        {% if association.facebook %}
+                        <a href="{{ association.facebook }}" target="_blank" class="button is-medium is-rounded" style="background-color: {{ association.color }}; color: white;">
+                            <span class="icon">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span>Page Facebook</span>
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}
