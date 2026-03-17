@@ -2,20 +2,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
 <meta content='#000000' name='theme-color'/>
 <meta name="keywords" content="{{site.site-keywords}}">
 <title>{{site.title}}{% if page.title %} | {{page.title}}{% endif %}</title>
+<link rel="canonical" href="{{site.url}}{{site.baseurl}}{{page.url}}">
 
 <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-<meta name="og:title" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
-<meta name="og:description" content="{% unless page.layout == 'post' %}{{site.description | strip_html}}{% else %}{{page.description | strip_html}}{% endunless %}">
-<meta name="og:image" content="{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}">
-<meta name="og:image:alt" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
-<meta name="og:url" content="{{site.url}}{{site.baseurl}}{{page.url}}">
-<meta name="article:author" content="https://www.facebook.com/{{site.facebook_username}}">
-<meta name="og:site_name" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
-<meta name="og:type" content="website">
+<meta property="og:title" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
+<meta property="og:description" content="{% unless page.layout == 'post' %}{{site.description | strip_html}}{% else %}{{page.description | strip_html}}{% endunless %}">
+<meta property="og:image" content="{{site.url}}{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}">
+<meta property="og:image:alt" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
+<meta property="og:url" content="{{site.url}}{{site.baseurl}}{{page.url}}">
+<meta property="article:author" content="https://www.facebook.com/{{site.facebook_username}}">
+<meta property="og:site_name" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
+<meta property="og:type" content="website">
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
@@ -32,15 +32,13 @@
 <meta itemprop="description" content="{% unless page.layout == 'post' %}{{site.description | strip_html}}{% else %}{{page.description | strip_html}}{% endunless %}">
 <meta itemprop="image" content="{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}">
 
+{% if site.google-analytics %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google-analytics}}"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', '{{site.google-analytics}}');
 </script>
+{% endif %}
