@@ -15,14 +15,14 @@
                                 {{ association.name }}
                             </p>
                         </header>
-                        <div class="card-content" style="flex-grow: 1;">
+                        <div class="card-content" style="flex-grow: 1; background-color: {{ association.color-pastel }};">
                             <div class="content">
                                 <p class="subtitle is-size-5 has-text-grey-dark">{{ association.tagline }}</p>
                                 {% capture asso_content %}{% include_relative {{ association.description_file }} %}{% endcapture %}
                                 {{ asso_content | markdownify | truncatewords: 50 }}
                             </div>
                         </div>
-                        <footer class="card-footer">
+                        <footer class="card-footer" style="background-color: {{ association.color-pastel }}; border-top: 1px solid {{ association.color }};">
                             <a href="#{{ association.slug }}-detail" class="card-footer-item has-text-weight-bold">
                                 En savoir plus
                             </a>
