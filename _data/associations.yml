@@ -4,7 +4,7 @@
   image: /assets/images/preenbulle.jpg
   description_file: _content/preenbulle.md
   icon: "📚"
-  color: "#3273dc"
+  color: "#1a5ea8"
   website: "https://www.preenbulles.fr/"
 
 - name: KBaBD
@@ -13,7 +13,7 @@
   image: /assets/images/kbabd.jpg
   description_file: _content/kbabd.md
   icon: "🥕"
-  color: "#48c774"
+  color: "#2d7d45"
   website: "https://s8.amapj.fr/p/bedee"
 
 - name: Festi'Bulle
@@ -22,5 +22,5 @@
   image: /assets/images/festibulle.jpg
   description_file: _content/festibulle.md
   icon: "🎪"
-  color: "#ffdd57"
+  color: "#c25200"
   facebook: "https://www.facebook.com/people/FestiBulle/61557356077157/"
