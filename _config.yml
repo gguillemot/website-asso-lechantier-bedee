@@ -27,7 +27,8 @@ sass:
 
 # Build settings
 plugins:
-  - jekyll-redirect-from 
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Compress
 compress_html:
