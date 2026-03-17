@@ -33,6 +33,10 @@ plugins:
 compress_html:
   clippings: all
 
+# Include
+include:
+  - google23d389dda135f812.html
+
 # Exclude
 exclude:
   - .sass-cache/
