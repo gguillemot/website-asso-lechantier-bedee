@@ -9,8 +9,8 @@ Une AMAP (Association pour le Maintien d'une Agriculture Paysanne) est un parten
 ## Le principe
 
 - Contrat direct avec les producteurs locaux
-- Engagement sur une saison ou une année
-- Panier hebdomadaire de produits frais et de saison
+- Engagement sur une année
+- Panier, tous les quinze jours, de produits frais et de saison
 - Prix équitable pour les producteurs et les consommateurs
 - Distribution locale : récupérez vos paniers directement à Bédée
 
@@ -20,11 +20,10 @@ KBaBD travaille avec des producteurs locaux engagés dans une démarche de quali
 
 - Légumes de saison cultivés localement
 - Fruits
-- Produits laitiers
+- Produits laitiers (lait de vache et lait de chèvre)
 - Pain artisanal
-- Viande et charcuterie
-- Œufs
 - Et bien d'autres produits selon les saisons et les producteurs partenaires
+- Jus de pommes
 
 ## Pourquoi rejoindre KBaBD ?
 
