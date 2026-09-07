@@ -20,8 +20,9 @@ KBaBD travaille avec des producteurs locaux engagés dans une démarche de quali
 
 - Légumes de saison cultivés localement
 - Fruits
+- Champignons
 - Produits laitiers (lait de vache et lait de chèvre)
-- Pain artisanal
+- Pain et brioche artisanal
 - Et bien d'autres produits selon les saisons et les producteurs partenaires
 - Jus de pommes
 
